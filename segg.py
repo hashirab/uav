@@ -32,8 +32,8 @@ st.title("🎥 Real-Time UNet Segmentation")
 # Model Selection
 model_name = st.selectbox("Choose the segmentation model", ["MobileNet", "ResNet34"])
 model_path_map = {
-    "MobileNet": "C:/Users/Hashir Abdullah/OneDrive/Documents/segment/unet_mobilenet_final_50.pt",
-    "ResNet34": "C:/Users/Hashir Abdullah/OneDrive/Documents/segment/unet_resnet34_final_50.pt"
+    "MobileNet": "unet_mobilenet_final_50.pt",
+    "ResNet34": "unet_resnet34_final_50.pt"
 }
 
 # Load selected model
